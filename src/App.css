@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  background-color: #1e1e1e;
+  display: flex;
+  margin: 0 auto;
+}
+
+.innings {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-left: 20px;
+  padding-top: 120px;
+}
+
+.innings .team {
+  width: 120px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3px;
+  font-family: "Helvetica", "Roboto", "Arial", "sans-serif";
+  font-size: 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.innings .active {
+  background-color: #ffb80c;
+}
+
+.innings .team1 {
+  margin-bottom: 10px;
+}

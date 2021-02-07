@@ -1,0 +1,31 @@
+.graph {
+  /* height: 100%; */
+  width: 100%;
+  padding: 20px;
+  padding-right: 50px;
+  font-family: "Helvetica", "Roboto", "Arial", "sans-serif";
+}
+
+.teams {
+  display: flex;
+  justify-content: space-between;
+  color: #f7ffff;
+  font-size: 17px;
+}
+.teams h2 {
+  font-weight: lighter;
+}
+
+.match-info {
+  color: #f7ffff;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 58px;
+  left: 40px;
+  font-size: 12px;
+}
+
+.match-info > p {
+  margin-right: 10px;
+}
